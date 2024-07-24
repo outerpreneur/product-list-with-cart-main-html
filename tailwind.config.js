@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         body: ["Nunito"],
+        "red-hat-text": ["Red Hat Text"],
       },
     },
   },
