@@ -23,7 +23,7 @@
   </head>
   <body class="font-red-hat-text">
     <main class="bg-rose-50 flex justify-center items-center">
-      <section class="max-w-[1216px] mx-auto flex gap-6">
+      <section class="max-w-[1216px] mx-auto flex gap-6 my-14">
         <div class="">
           <div class="bg-red-500">
             <h1 class="py-3 text-3xl font-bold mb-3">Desserts</h1>
@@ -31,9 +31,23 @@
 
           <div class="grid grid-cols-3 gap-6" id="dessert-container"></div>
         </div>
-        <div class="cart bg-white">
-          <h3 class="py-3 text-rose-600">Your Cart (<!-- Quantity -->)</h3>
-          <p>Your added items will appear here</p>
+        <div class="cart bg-white max-w-[384px] p-6 h-full rounded">
+          <h3 class="py-3 text-rose-600 text-xl font-bold">
+            Your Cart (<!-- Quantity -->)
+          </h3>
+          <div
+            id="cart-item"
+            class="flex flex-col items-center justify-center gap-4"
+          >
+            <img
+              src="./assets/images/illustration-empty-cart.svg"
+              alt=""
+              class="py-4"
+            />
+            <p class="text-rose-500 font-semibold">
+              Your added items will appear here
+            </p>
+          </div>
         </div>
       </section>
     </main>
